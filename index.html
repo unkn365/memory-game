@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Переверни карточку</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 class="heading">Memory Game</h2>
+    <h3 class="description">Угадай все карточки</h3>
+    <div>
+      <input id="username" type="text" placeholder="Введите ваш никнейм">
+      <button id="new-game">Начать игру</button>
+    </div>
+    <div id="game-board"></div>
+    <table id="leaderboard">
+      <thead>
+        <tr>
+          <th>Место</th>
+          <th>Никнейм</th>
+          <th>Время</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <h2 id="victory-message"></h2> <button id="clear-leaderboard">Очистка лидерборда</button>
+    <footer>Работу выполнил: Кравчук Лев Николаевич ИСиП-22-202</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
